@@ -1,10 +1,12 @@
 import './App.css';
+import { AboutMe, Home } from './components';
 
 function App() {
   return (
-    <div>
-      <header> Hello There 🧔🏼</header>
-    </div>
+    <>
+      <Home />
+      <AboutMe />
+    </>
   );
 }
 

@@ -20,5 +20,50 @@ html {
   --secondary: #00a8cc;
   --dark: #21243d;
   --light: #8695a4;
+  --light-grayish-cyan: #c0e9f5;
+  --dark-grayish-cyan: #037091;
+  --bgColorOne: rgb(236, 246, 248);
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--light-grayish-cyan);
+  background-color: var(--primary);
+  font-family: sans-serif;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 35px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+  transition: all 0.2s;
+}
+
+.btn:before {
+  content: '';
+  background-color: var(--dark-grayish-cyan);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* z-index: -1; */
+  transform: translateX(-100%);
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover::before {
+  transform: translateX(0);
+}
+
+.btn-text {
+  position: relative;
+  z-index: 1;
 }
 

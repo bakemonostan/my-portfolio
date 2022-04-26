@@ -1,11 +1,14 @@
 import './App.css';
-import { AboutMe, Home } from './components';
+import { AboutMe, ContactMe, Footer, Home, PortFolio } from './components';
 
 function App() {
   return (
     <>
       <Home />
       <AboutMe />
+      <PortFolio />
+      <ContactMe />
+      <Footer />
     </>
   );
 }

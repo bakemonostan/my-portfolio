@@ -1,7 +1,8 @@
-import AboutMe from './AboutMe';
+import AboutMe from './layout/AboutMe';
+import Footer from './layout/Footer';
+import ContactMe from './layout/ContactMe';
+import Home from './layout/Home';
+import PortFolio from './layout/PortFolio';
 import Card from './Card';
-import ContactMe from './ContactMe';
-import Home from './Home';
-import PortFolio from './PortFolio';
 
-export { AboutMe, Card, ContactMe, Home, PortFolio };
+export { AboutMe, Footer, ContactMe, Home, PortFolio, Card };

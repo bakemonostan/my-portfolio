@@ -1,12 +1,12 @@
-import Wrapper from '../Assets/wrappers/IntroSection';
-import Hero from '../Assets/image/HeroImg2.jpeg';
+import Wrapper from '../../Assets/wrappers/IntroSection';
+import Hero from '../../Assets/image/HeroImg2.jpeg';
 
 const Home = () => {
   return (
     <Wrapper primary>
       <nav>
         <div className='logo'>
-          <h1>FortTec</h1>
+          <h1>BakemonoStan</h1>
         </div>
         <div className='nav_menu'>
           <ul className='nav__items'>

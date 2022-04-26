@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.main`
+const Wrapper = styled.section`
+  background-color: ${(props) =>
+    props.primary ? 'var( --bgColorOne)' : 'var(--light-grayish-cyan)'};
+
   nav {
     display: flex;
     align-items: center;
@@ -26,8 +29,8 @@ const Wrapper = styled.main`
   .hero {
     box-shadow: -5px 5px 10px var(--light-grayish-cyan);
     margin-bottom: 2rem;
-    width: ${(props) => (props.primary ? '175px' : '250px')};
-    height: ${(props) => (props.primary ? '175px' : '300px')};
+    width: ${(props) => (props.primary ? '175px' : '320px')};
+    height: ${(props) => (props.primary ? '175px' : '320px')};
     border-radius: ${(props) => (props.primary ? '50%' : '10px')};
   }
 

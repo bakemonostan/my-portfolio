@@ -5,7 +5,7 @@ const AboutMe = () => {
     <Wrapper>
       <div className='container'>
         <h3>About Me</h3>
-        <p>
+        <p className='about-me'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eaque
           corrupti totam quae consequuntur ratione laborum perferendis delectus
           quas. Iste unde mollitia est nobis! Quam, exercitationem. Eos vel

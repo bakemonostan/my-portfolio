@@ -25,6 +25,19 @@ html {
   --bgColorOne: rgb(236, 246, 248);
 }
 
+.card-container {
+  background-color: var(--light-grayish-cyan);
+  margin-top: 1rem;
+  max-width: 300px;
+  border-radius: 15px;
+  padding: 1rem 1rem 2rem;
+  box-shadow: 5px 5px 15px var(--dark-grayish-cyan);
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
 .btn {
   text-decoration: none;
   color: var(--light-grayish-cyan);
@@ -56,6 +69,7 @@ html {
 .btn:hover {
   color: #fff;
   cursor: pointer;
+  box-shadow: 5px 5px 10px var(--dark-grayish-cyan);
 }
 
 .btn:hover::before {

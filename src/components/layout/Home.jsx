@@ -21,9 +21,9 @@ const Home = () => {
         <div>
           <img src={Hero} alt='hero' className='hero' />
         </div>
-        <h2 className='intro'>
+        <h3 className='intro'>
           Hello There 🧔🏼, I'm Ehiz, A junior Front-End Developer
-        </h2>
+        </h3>
         <p className='hero-info'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
           inventore vel maxime aspernatur quam cum. Aut deleniti, quis officia

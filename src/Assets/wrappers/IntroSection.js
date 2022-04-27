@@ -19,7 +19,7 @@ const Wrapper = styled.section`
   }
 
   .container {
-    padding-top: 6rem;
+    padding-top: 2rem;
     margin: 0 auto;
     text-align: center;
     max-width: 450px;
@@ -34,11 +34,15 @@ const Wrapper = styled.section`
     border-radius: ${(props) => (props.primary ? '50%' : '10px')};
   }
 
-  h2 {
-    margin-bottom: 2rem;
+  h3 {
+    margin-bottom: 1rem;
     padding: 0 6rem;
     font-weight: 700;
     font-size: 30px;
+  }
+
+  .about-me {
+    padding: 0 1rem 2rem;
   }
 
   .hero-info {

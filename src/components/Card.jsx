@@ -1,16 +1,18 @@
-const Card = () => {
+import Img from '../Assets/image/HeroImg2.jpeg';
+
+const Card = ({ title, info, img, link, code }) => {
   return (
-    <div className='card-container'>
-      <h3 className='card-title'>Title</h3>
-      <p className='card-info'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-        omnis tempora dolorem corrupti. Sed delectus recusandae aliquid
-        repudiandae vitae beatae id, quam est totam et suscipit voluptatem
-        accusamus quibusdam ut.
-      </p>
-      <button className='btn'>
-        <p className='btn-text'>View Project</p>
-      </button>
+    <div className='card'>
+      <div className='imgbox'>
+        <img src={Img || img} alt='#' className='card-img' />
+      </div>
+      <div className='content'>
+        <h3 className='card-title'>{title}</h3>
+        <p className='card-info'>{info}</p>
+        <button className='btn'>
+          <p className='btn-text'>View Project</p>
+        </button>
+      </div>
     </div>
   );
 };

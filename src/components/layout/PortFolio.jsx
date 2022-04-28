@@ -5,6 +5,8 @@ const PortFolio = () => {
     <Wrapper>
       <h3>My Projects</h3>
       <h4>My Portfolio</h4>
+      <Card title='title' />
+      <Card />
       <Card />
     </Wrapper>
   );

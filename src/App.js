@@ -8,6 +8,7 @@ function App() {
       <AboutMe />
       <PortFolio />
       <ContactMe />
+
       <Footer />
     </>
   );
